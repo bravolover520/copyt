@@ -8,6 +8,12 @@
 ```
 /\s*(\/\*.*?\*\/|<!--.*?-->|\/\/.*?$)/gms
 ```
+
+注意运行前在copyt根目录下或者全局安装fdir：
+```
+npm install fdir
+```
+
 主要逻辑在 `res\index.js` 里：
 ```js
 let fs=require('fs');
